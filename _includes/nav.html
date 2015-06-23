@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
     </div>
-    <div class="navbar-collapse collapse">
+    <div class="navbar-collapse collapse {% if page.title != "Home" %}navbar-right{% endif %}">
       {% if page.title != "Home" %}<a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">{{ site.title }}</a>{% endif %}
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
