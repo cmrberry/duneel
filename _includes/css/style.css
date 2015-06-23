@@ -224,7 +224,7 @@ a:focus {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 350px;
+	min-height: 450px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -241,12 +241,15 @@ a:focus {
 
 #headerwrap h3, h5 {
 	color: white;
+	font-size:1.25em;
 	font-weight: 400;
+	font-family: 'Rock Salt', cursive;
 }
 
 #headerwrap h1 {
 	color: white;
-	margin: 200px 0 25px;
+	font-size:4em;
+	margin: 150px 0 25px;
 	font-family: 'Rock Salt', cursive;
 }
 
