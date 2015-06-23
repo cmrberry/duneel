@@ -1,0 +1,11 @@
+<script src="//connect.soundcloud.com/sdk-2.0.0.js"></script>
+<script>
+SC.initialize({
+  client_id: 'df4331c77f7be80f5630018a5af5b672'
+});
+
+var track_url = {{ page.soundcloud }};
+SC.oEmbed(track_url, { auto_play: true }, function(oEmbed) {
+  console.log('oEmbed response: ' + oEmbed);
+});
+</script>
