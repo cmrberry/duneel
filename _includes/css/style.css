@@ -217,7 +217,7 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
- background: url(../img/t-back.jpg) no-repeat center top;
+ background: url(https://upload.wikimedia.org/wikipedia/commons/d/df/Steinway_grand_piano_interior.JPG) no-repeat center top;
     position: relative;
     margin-top: 0px;
 	padding-top:60px;
@@ -245,7 +245,7 @@ a:focus {
 
 #headerwrap h1 {
 	color: white;
-	margin-bottom: 25px;
+	margin: 25px;
 }
 
 #headerwrap .img-responsive {
