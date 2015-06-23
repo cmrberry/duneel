@@ -132,6 +132,16 @@ a:focus {
 	border-color: transparent;
 }
 
+.navbar-collapse {
+	text-align:center;
+}
+
+.navbar-nav {
+	float: none;
+  	margin: auto;
+  	display: inline-block;
+}
+
 .dropdown-menu {
 	background: {{ site.colors.secondary }};
 }
