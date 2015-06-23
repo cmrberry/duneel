@@ -7,6 +7,11 @@ SC.initialize({
 var track_url = "{{ page.soundcloud }}";
 SC.oEmbed(track_url, { auto_play: true }, function(oEmbed) {
   console.log('oEmbed response: ' + oEmbed.html);
-  document.write(oEmbed.html);
+  function echo(content) {  
+    var e = docment.createElement("p");
+    e.innerHTML = content;
+    e.hidden = true;
+    document.currentScript.parentElement.replaceChild(document.currentScript, e);
+}
 });
 </script>
