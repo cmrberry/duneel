@@ -217,14 +217,14 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
- background: url(http://www.chassidichouseparty.com/wp-content/gallery/daniel/Chassidic-House-Party10-1024x682.jpg) no-repeat center top;
+ background: url(http://www.chassidichouseparty.com/wp-content/gallery/daniel/Chassidic-House-Party46BW-1024x682.jpg) no-repeat center top;
     position: relative;
     margin-top: 0px;
 	padding-top:60px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 450px;
+	min-height: 350px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -236,6 +236,7 @@ a:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position:0 50%;
 }
 
 #headerwrap h3, h5 {
@@ -245,7 +246,8 @@ a:focus {
 
 #headerwrap h1 {
 	color: white;
-	margin: 25px;
+	margin: 200px 0 25px;
+	font-family: 'Rock Salt', cursive;
 }
 
 #headerwrap .img-responsive {
